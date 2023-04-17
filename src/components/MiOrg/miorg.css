@@ -17,6 +17,12 @@
 
 .orgSection img {
   position: absolute;
-  right: 30%;
+  right: 15%;
   cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+  .orgSection img {
+    right: 5%; /* Reducimos la posición de la imagen al 5% del ancho del contenedor en pantallas pequeñas */
+  }
 }
